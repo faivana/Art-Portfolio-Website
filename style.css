@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* margin and padding = 0 to prevent the browser from applying its default margin/padding */
+
+/* border-box helps to keep layouts more consistent and easier to visualize how elements will interact with each other */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #f1efe5;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.navbar a{
+    color: black;
+    padding: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar span{
+    color: #7c8959;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar li{
+    float: right;
+}
+
+.profile-card img{
+    width: 470px;
+    height: 530px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    
+}
+
+/* adds spaces between text, heading and image */
+.info{
+    margin: 30px;
+}
+
+.info .text{
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.text span{
+    color: #7c8959;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.text h2{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*
+.btn-box button{
+    padding: 12px 25px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #91785c93;
+}
+*/
+
+.icons i{
+    padding-right: 7px;
+    padding-top: 25px;
+    padding-bottom: 12px; 
+}
+
+
+
